@@ -21,6 +21,7 @@ public class StudentView {
         System.out.println("1. Найти студента");
         System.out.println("2. Удалить студента");
         System.out.println("3. Добавить студента");
+        System.out.println("4. Выйти из программы");
 
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
@@ -56,7 +57,10 @@ public class StudentView {
                 System.out.println("Перепроверьте данные");
                 runInterface();
             }
-        } else {
+        } else if (choice == 4) {
+            System.out.println("До встречи!");
+            }
+        else {
                 System.out.println("Введите корректные данные!");
             runInterface();
         }
