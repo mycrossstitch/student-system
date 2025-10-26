@@ -9,7 +9,6 @@ import lombok.*;
 @ToString
 public class Student {
 
-    private Passport passport;
 
     private String phoneNumber;
 
@@ -18,7 +17,6 @@ public class Student {
     private String address;
 
     private Faculty faculty;
-
 
 
 }
